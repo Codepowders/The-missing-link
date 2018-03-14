@@ -9,8 +9,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="css/themissinglink.css" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
+        <!-- Styles 
         <style>
             html, body {
                 background-color: #fff;
@@ -62,7 +63,7 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> -->
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -78,8 +79,26 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel hello
+<div class="header">
+    <h2 class="header1">The Missing Link</h2>
+</div>
+<br /><br />
+<div class="container1">
+<button class="button button5"><span class="area">Nood</span></button>
+<button class="button button5"><span class="area">Help</span></button>
+<button class="button button5"><span class="area">Zorg</span></button>
+<div><br />
+<div class="container2">
+<button class="button button5"><span class="area">Gezelschap</span></button>
+<button class="button button5"><span class="area">Klussen</span></button>
+<button class="button button5"><span class="area">Boodschappen</span></button>
+</div>
+<div class="footer">
+<h2 class="header1">Always Under Construction!</h2>
+</div>
+
+                <!-- <div class="title m-b-md">
+                    Hello Lieuwe!... beware of the Jorrits!!
                 </div>
 
                 <div class="links">
@@ -88,7 +107,7 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </body>

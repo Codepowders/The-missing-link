@@ -1,0 +1,98 @@
+body { 	width  : 1044px; margin: 30px auto; }
+.header {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  background: #ddd;
+  margin-bottom: 10px;
+  box-shadow: inset 2px 2px 6px #000,
+    0 0 0 1px #000,
+    0 0 0 2px #999,
+    0 0 0 5px #ddd,
+    0 0 0 8px #0000ac,
+    0 0 0 9px #666,
+    0 0 0 11px #bbb,
+    0 0 0 14px #ccc,
+    0 0 0 15px #aaa,
+    0 0 0 16px #000,
+    0 2px 6px 17px rgba(0,0,0,0.5);
+}/* border-radius: 1px;*/
+.header1 {
+  text-shadow: 0 0 3px #0000FF;
+}
+.footer {
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 30px;
+  /* border-radius: 1px;*/
+  box-shadow: inset 2px 2px 6px #000,
+    0 0 0 1px #000,
+    0 0 0 2px #999,
+    0 0 0 5px #ddd, /*TODO*/
+    0 0 0 8px #0000ac,
+    0 0 0 9px #666,
+    0 0 0 11px #bbb,
+    0 0 0 14px #ccc,
+    0 0 0 15px #aaa,
+    0 0 0 16px #000,
+    0 2px 6px 17px rgba(0,0,0,0.5);
+}
+h2 {
+  display: inline;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+.container1 {vertical-align:center; background-color:#eeeeee; width: 1040px;}
+.container2 {vertical-align:center; background-color:#eeeeee; width: 1040px; vertical-align:center;}
+.area { max-width:160px; min-width:160px; display:block; }
+.button {
+    background-color: #8C9FC1;
+    border: none;
+    color: white;
+    padding: 78px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px; font-weight: bold;
+    margin: 4px 4px;
+	border: 10px solid #0000ac;
+}
+.button5 {border-radius: 50%;}
+.button:hover {
+  background-color: #F57B20;
+  border: none;
+  color: white;
+  padding: 78px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px; font-weight: bold;
+  margin: 4px 4px;
+border: 10px solid #ac0000;
+}
+/*.buttono {
+    background-color: #F57B20;
+    border: none;
+    color: white;
+    padding: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button1 {border-radius: 20px;}
+.button2 {border-radius: 30px;}
+.button3 {border-radius: 40px;}
+.button4 {border-radius: 50px;}
+.button6 {border-radius: 50%;}
+.button7 {border-radius: 50%;}*/
