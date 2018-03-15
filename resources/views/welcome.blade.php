@@ -12,6 +12,9 @@
         <link href="css/themissinglink.css" rel="stylesheet" type="text/css">
 
         <!-- Styles 
+        /* AIzaSyAnmPaoxfofvPJ3z9W8tXQeO0J4EJezejU
+        inloggegevens API-sleutel: AIzaSyAznzmRGq4L6dzx-TSB9d6kv3Bg3x9YS9A naam API-sleutel 1*/
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" type="text/javascript"></script>
         <style>
             html, body {
                 background-color: #fff;
@@ -85,7 +88,7 @@
 <br /><br />
 <div class="container1">
 <button class="button button5"><span class="area">Nood</span></button>
-<button class="button button5"><span class="area">Help</span></button>
+<button class="button button5"><span class="area">Hulp</span></button>
 <button class="button button5"><span class="area">Zorg</span></button>
 <div><br />
 <div class="container2">
