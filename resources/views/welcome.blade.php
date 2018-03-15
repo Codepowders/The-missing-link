@@ -5,110 +5,29 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>the missing link</title>
 
-        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <link href="css/themissinglink.css" rel="stylesheet" type="text/css">
+        <link href="css/themissinglinktest.css" rel="stylesheet" type="text/css">
 
-        <!-- Styles 
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style> -->
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
 
-            <div class="content">
-<div class="header">
-    <h2 class="header1">The Missing Link</h2>
-</div>
-<br /><br />
-<div class="container1">
-<button class="button button5"><span class="area">Nood</span></button>
-<button class="button button5"><span class="area">Help</span></button>
-<button class="button button5"><span class="area">Zorg</span></button>
-<div><br />
-<div class="container2">
-<button class="button button5"><span class="area">Gezelschap</span></button>
-<button class="button button5"><span class="area">Klussen</span></button>
-<button class="button button5"><span class="area">Boodschappen</span></button>
-</div>
-<div class="footer">
-<h2 class="header1">Always Under Construction!</h2>
+
+
+<div class="container">
+
+<a href="#" class="myButton button1"><img src="img/images.jpg" class="btnimage nood"><p>Nood</p></a>
+<a href="#" class="myButton button2"><img src="img/images.jpg" class="btnimage boodschappen"><p>Boodschappen</p></a>
+<a href="#" class="myButton button3"><img src="img/images.jpg" class="btnimage klusjes"><p>Klusjes</p></a>
+<a href="#" class="myButton button4"><img src="img/images.jpg" class="btnimage hulp"><p>Hulp</p></a>
+<a href="#" class="myButton button5"><img src="img/images.jpg" class="btnimage zorg"><p>Zorg</p></a>
+<a href="#" class="myButton button6"><img src="img/images.jpg" class="btnimage gezelschap"><p>Gezelschap</p></a>
 </div>
 
-                <!-- <div class="title m-b-md">
-                    Hello Lieuwe!... beware of the Jorrits!!
-                </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div> -->
-            </div>
-        </div>
+
+
     </body>
 </html>
