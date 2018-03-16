@@ -9,8 +9,6 @@
 
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="css/themissinglinktest.css" rel="stylesheet" type="text/css">
-
-
     </head>
     <body>
     <div class="flex-center position-ref full-height">
@@ -28,16 +26,13 @@
 
 
 <div class="container">
-<a href="#" class="myButton button1"><img src="img/images.jpg" class="btnimage nood"><p>Nood</p></a>
-<a href="#" class="myButton button2"><img src="img/images.jpg" class="btnimage boodschappen"><p>Boodschappen</p></a>
-<a href="#" class="myButton button3"><img src="img/images.jpg" class="btnimage klusjes"><p>Klusjes</p></a>
-<a href="#" class="myButton button4"><img src="img/images.jpg" class="btnimage hulp"><p>Hulp</p></a>
-<a href="#" class="myButton button5"><img src="img/images.jpg" class="btnimage zorg"><p>Zorg</p></a>
-<a href="#" class="myButton button6"><img src="img/images.jpg" class="btnimage gezelschap"><p>Gezelschap</p></a>
+
+<a href="#" class="myButton button1"><img src="img/images.png" class="btnimage nood"><p>Nood</p></a>
+<a href="#" class="myButton button2"><img src="img/boodschappen.png" class="btnimage boodschappen"><p>Boodschappen</p></a>
+<a href="#" class="myButton button3"><img src="img/klusjes.png" class="btnimage klusjes"><p>Klusjes</p></a>
+<a href="#" class="myButton button4"><img src="img/hulp.png" class="btnimage hulp"><p>Hulp</p></a>
+<a href="#" class="myButton button5"><img src="img/zorg.png" class="btnimage zorg"><p>Zorg</p></a>
+<a href="#" class="myButton button6"><img src="img/gezelschap.png" class="btnimage gezelschap"><p>Gezelschap</p></a>
 </div>
-
-
-
-        </div>
     </body>
 </html>
