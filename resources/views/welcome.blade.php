@@ -11,7 +11,7 @@
         <link href="css/themissinglinktest.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-    <div class="flex-center position-ref full-height">
+    <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -22,7 +22,7 @@
                     @endauth
                 </div>
             @endif
-            <br /><br />
+            <br /><br /> -->
 
 
 <div class="container">
@@ -34,5 +34,8 @@
 <a href="#" class="myButton button5"><img src="img/zorg.png" class="btnimage zorg"><p>Zorg</p></a>
 <a href="#" class="myButton button6"><img src="img/gezelschap.png" class="btnimage gezelschap"><p>Gezelschap</p></a>
 </div>
+
+
+
     </body>
 </html>

@@ -12,9 +12,28 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
+Route::get('/contact.blade.php', function () {
+    return view('contact');
+});
+
+Route::get('/doctors.blade.php', function () {
+    return view('doctors');
+});
+
+Route::get('/news.blade.php', function () {
+    return view('news');
+});
+
+Route::get('/services.blade.php', function () {
+    return view('services');
+});
+
+Route::get('/about.blade.php', function () {
+    return view('about');
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
