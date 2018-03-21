@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Colorlib Medi+</title>
+    <title>The missing Link</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
+
     <header role="banner">
       <div class="top-bar">
         <div class="container">
@@ -43,7 +43,7 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Medi<span>+</span>  </a>
+          <a class="navbar-brand" href="index.blade.php">Medi<span>+</span>  </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -51,32 +51,32 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.blade.php">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" href="services.blade.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
                   <a class="dropdown-item" href="#">Institute</a>
                   <a class="dropdown-item" href="#">Departments</a>
-                  <a class="dropdown-item active" href="services.html">Services</a>
+                  <a class="dropdown-item active" href="services.blade.php">Services</a>
                 </div>
 
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
+                <a class="nav-link dropdown-toggle" href="doctors.blade.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="doctors.html">Find Doctors</a>
+                  <a class="dropdown-item" href="doctors.blade.php">Find Doctors</a>
                   <a class="dropdown-item" href="#">Practitioner</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="news.blade.php">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="about.blade.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.blade.php">Contact</a>
               </li>
             </ul>
           </div>
@@ -85,10 +85,10 @@
     </header>
     <!-- END header -->
 
-    
+
     <section class="home-slider inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
-        
+
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
@@ -238,56 +238,7 @@
     </section>
     <!-- END section -->
 
-    <section class="section bg-light custom-tabs">
-      <div class="container">
-        <div class="row">
 
-          <div class="col-md-4 border-right element-animate">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><span>01</span> Amenities</a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><span>02</span> Medical Services</a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><span>03</span> Patient Services</a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><span>04</span> Expert Doctors</a>
-            </div>
-          </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-7 element-animate">
-            
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <span class="icon flaticon-hospital"></span>
-                <h2 class="text-primary">Amenities</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary">Learn More</a></p>
-              </div>
-              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                <span class="icon flaticon-first-aid-kit"></span>
-                <h2 class="text-primary">Medical Services</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary">Learn More</a></p>
-              </div>
-              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <span class="icon flaticon-hospital-bed"></span>
-                <h2 class="text-primary">Patient Services</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary">Learn More</a></p>
-              </div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                <span class="icon flaticon-doctor"></span>
-                <h2 class="text-primary">Expert Doctors</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
-                <p><a href="#" class="btn btn-primary">Learn More</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- END section -->
 
     <a href="#" class="cta-link element-animate" data-toggle="modal" data-target="#modalAppointment">
       <span class="sub-heading">Ready to Visit?</span>
@@ -332,7 +283,7 @@
 
             <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
             <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
-            
+
             <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
             <p>+1 24 435 3533</p>
 
@@ -382,7 +333,7 @@
                   <div class="form-group">
                     <label for="appointment_date" class="text-black">Date</label>
                     <input type="text" class="form-control" id="appointment_date">
-                  </div>    
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -391,7 +342,7 @@
                   </div>
                 </div>
               </div>
-              
+
 
               <div class="form-group">
                 <label for="appointment_message" class="text-black">Message</label>
@@ -402,7 +353,7 @@
               </div>
             </form>
           </div>
-          
+
         </div>
       </div>
     </div>

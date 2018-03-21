@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Colorlib Medi+</title>
+    <title>The missing link</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    
+
     <header role="banner">
       <div class="top-bar">
         <div class="container">
@@ -51,32 +51,32 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.blade.php">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" href="services.blade.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
                   <a class="dropdown-item" href="#">Institute</a>
                   <a class="dropdown-item" href="#">Departments</a>
-                  <a class="dropdown-item" href="services.html">Services</a>
+                  <a class="dropdown-item" href="services.blade.html">Services</a>
                 </div>
 
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
+                <a class="nav-link dropdown-toggle" href="doctors.blade.php" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item" href="doctors.html">Find Doctors</a>
+                  <a class="dropdown-item" href="doctors.blade.php">Find Doctors</a>
                   <a class="dropdown-item" href="#">Practitioner</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
+                <a class="nav-link" href="news.blade.php">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
+                <a class="nav-link active" href="about.blade.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.blade.php">Contact</a>
               </li>
             </ul>
           </div>
@@ -85,10 +85,10 @@
     </header>
     <!-- END header -->
 
-    
+
     <section class="home-slider inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
-        
+
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
@@ -118,7 +118,7 @@
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-7 element-animate" data-animate-effect="fadeInLeft">
-            
+
             <div class="tab-content" id="v-pills-tabContent">
               <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                 <span class="icon flaticon-hospital"></span>
@@ -346,7 +346,7 @@
 
             <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
             <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
-            
+
             <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
             <p>+1 24 435 3533</p>
 
@@ -396,7 +396,7 @@
                   <div class="form-group">
                     <label for="appointment_date" class="text-black">Date</label>
                     <input type="text" class="form-control" id="appointment_date">
-                  </div>    
+                  </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
@@ -405,7 +405,7 @@
                   </div>
                 </div>
               </div>
-              
+
 
               <div class="form-group">
                 <label for="appointment_message" class="text-black">Message</label>
@@ -416,7 +416,7 @@
               </div>
             </form>
           </div>
-          
+
         </div>
       </div>
     </div>

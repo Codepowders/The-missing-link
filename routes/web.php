@@ -35,9 +35,14 @@ Route::get('/about.blade.php', function () {
     return view('about');
 });
 
+Route::get('/index.blade.php', function () {
+    return view('index');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
 
 Auth::routes();
 
