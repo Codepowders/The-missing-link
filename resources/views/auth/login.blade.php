@@ -1,12 +1,31 @@
 @extends('layouts.app')
 
 @section('content')
+<<<<<<< HEAD
+=======
+<style>
+.h2 
+{
+     display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+</style>
+>>>>>>> 6129294d151e9d4cee9d8e648e63d961c1531061
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
+<<<<<<< HEAD
                 <div class="panel-heading">Login</div>
 
+=======
+            <div class="h2">Login schermpje</div>
+>>>>>>> 6129294d151e9d4cee9d8e648e63d961c1531061
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
