@@ -2,8 +2,7 @@
 
 @section('content')
 <style>
-.h2 
-{
+.h2 {
      display: block;
     font-size: 1.5em;
     margin-top: 0.83em;
@@ -17,7 +16,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-            <div class="h2">Login schermpje</div>
+            <br /><br /><div class="h2">Login schermpje</div><br />
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
