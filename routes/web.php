@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('auth/login'); // welcome moet naar login=senioren. //index=deelnememers
 });
 
 Route::get('/contact.blade.php', function () {
