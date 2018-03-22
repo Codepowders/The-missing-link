@@ -60,6 +60,8 @@ header .top-bar a {
 
 header .top-bar .cta-btn {
   display: inline-block;
+  float: left;
+  margin-left: 3px;
   padding-right: 15px;
   padding-left: 15px;
   background: #5AC8D8;

@@ -37,7 +37,12 @@
             <div class="col-md-6 col-sm-6 col-7 text-right">
               <p class="mb-0">
                 <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Maak hier een afspraak</a></p>
+              <p class="mb-0">
+                <a href="login.blade.php" class="cta-btn">Login</a></p>
+              <p class="mb-0">
+                <a href="register.blade.php" class="cta-btn">Registreer</a></p>
             </div>
+
           </div>
         </div>
       </div>
