@@ -29,9 +29,9 @@
           <div class="row">
             <div class="col-md-6 col-sm-6 col-5">
               <ul class="social list-unstyled">
-                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                <li><a href="https://www.facebook.com/Thenewlink-315339535662124/?modal=admin_todo_tour"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://twitter.com/Thenewlinkhelp?lang=nl"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="https://www.instagram.com/newlinknewlink/"><span class="fa fa-instagram"></span></a></li>
               </ul>
             </div>
             <div class="col-md-6 col-sm-6 col-7 text-right">
@@ -226,13 +226,13 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center mb-5">
-            <h2 class="text-uppercase heading border-bottom mb-4">Our Doctors</h2>
+            <h2 class="text-uppercase heading border-bottom mb-4">Onze medewerkers</h2>
             <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
           </div>
         </div>
         <div class="row element-animate">
           <div class="major-caousel js-carousel-1 owl-carousel">
-            <div>
+            <!-- <div>
               <div class="media d-block media-custom text-center">
                 <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
@@ -245,8 +245,9 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div>
+            </div> -->
+
+            <!-- <div>
               <div class="media d-block media-custom text-center">
                 <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
@@ -259,8 +260,8 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div>
+            </div> -->
+            <!-- <div>
               <div class="media d-block media-custom text-center">
                 <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
@@ -273,8 +274,9 @@
                   </p>
                 </div>
               </div>
-            </div>
-            <div>
+            </div> -->
+
+            <!-- <div>
               <div class="media d-block media-custom text-center">
                 <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
@@ -287,41 +289,43 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
+
+            <!-- <div>
+              <div class="media d-block media-custom text-center">
+                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>
+                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
+                  </p>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div>
+              <div class="media d-block media-custom text-center">
+                <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+                <div class="media-body">
+                  <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>
+                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
+                  </p>
+                </div>
+              </div>
+            </div> -->
 
             <div>
               <div class="media d-block media-custom text-center">
-                <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
-                <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
-                <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <p>
-                    <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-                    <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="media d-block media-custom text-center">
                 <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
+                  <h3 class="mt-0 text-black">Lieuwe Jelle</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   <p>
                     <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
@@ -335,7 +339,7 @@
               <div class="media d-block media-custom text-center">
                 <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
-                  <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
+                  <h3 class="mt-0 text-black">Jorrit Breeuwer</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                   <p>
                     <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
@@ -357,9 +361,9 @@
       <div class="container">
         <div class="row text-center justify-content-center">
           <div class="col-md-10">
-            <h2 class="heading element-animate">Experience Our Advance Facilities</h2>
+            <h2 class="heading element-animate">Beleef ons product!</h2>
             <p class="sub-heading element-animate mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            <p class="element-animate"><a href="#" class="btn btn-primary btn-lg">Get In Touch</a></p>
+            <p class="element-animate"><a href="#" class="btn btn-primary btn-lg">Maak een afspraak</a></p>
           </div>
         </div>
       </div>
@@ -370,7 +374,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 element-animate">
           <div class="col-md-8 text-center mb-5">
-            <h2 class="text-uppercase heading border-bottom mb-4">News &amp; Events</h2>
+            <h2 class="text-uppercase heading border-bottom mb-4">Nieuwtjes &amp; Evenementen </h2>
             <p class="mb-0 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
           </div>
         </div>
@@ -381,10 +385,10 @@
                 <img src="img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <h3 class="mt-0 text-black"><a href="http://www.dementie-winkel.nl/" class="text-black">Webwinkel dementie</a></h3>
+                  <p>Alles voor een stimulerende leefomgeving!</p>
                   <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
+                    <a href="http://www.dementie-winkel.nl/" class="float-left">Lees meer</a>
                     <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
                   </p>
                 </div>
@@ -395,10 +399,10 @@
                 <img src="img/img_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <h3 class="mt-0 text-black"><a href="http://www.wierdenland.nl/" class="text-black">Museum Wierdenland</a></h3>
+                  <p>Ontdek de schatkamers van het oudste cultuurlandschap van Nederland</p>
                   <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
+                    <a href="http://www.wierdenland.nl/" class="float-left">Lees meer</a>
                     <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 2</a>
                   </p>
                 </div>
@@ -409,10 +413,11 @@
                 <img src="img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <h3 class="mt-0 text-black"><a href="http://www.menkemaborg.nl/" class="text-black">Kasteelmuseum De Menkemaborg</a></h3>
+                  <p>Ga samen met het echtpaar Alberda terug naar de achttiende eeuw. Ontdek op de Menkemaborg hoe het was om te leven
+                    op een burcht. </p>
                   <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
+                    <a href="http://www.menkemaborg.nl/" class="float-left">Lees meer</a>
                     <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 5</a>
                   </p>
                 </div>
@@ -423,17 +428,18 @@
                 <img src="img/img_thumb_4.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
                   <span class="meta-post">December 2, 2017</span>
-                  <h3 class="mt-0 text-black"><a href="#" class="text-black">Lorem ipsum dolor sit amet elit</a></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <h3 class="mt-0 text-black"><a href="https://landgoedtenaxx.nl/" class="text-black">Tenaxx dino en bomenpark.</a></h3>
+                  <p>Het doel van het park is om te laten zien dat dinosaurussen en bomen in tientallen miljoenen jaren gezamenlijk
+                     geëvolueerd zijn. Voor jong en oud.</p>
                   <p class="clearfix">
-                    <a href="#" class="float-left">Read more</a>
+                    <a href="https://landgoedtenaxx.nl/" class="float-left">Lees meer</a>
                     <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 7</a>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div>
+            <!-- <div>
               <div class="media d-block media-custom text-left">
                 <img src="img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
                 <div class="media-body">
@@ -488,7 +494,7 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
 
           </div>
           <!-- END slider -->
@@ -498,8 +504,8 @@
     <!-- END section -->
 
     <a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
-      <span class="sub-heading">Ready to Visit?</span>
-      <span class="heading">Make an Appointment</span>
+      <span class="sub-heading">Klaar om de samenleving bij elkaar te brengen?</span>
+      <span class="heading">Maak hier een afspraak!</span>
     </a>
     <!-- END cta-link -->
 

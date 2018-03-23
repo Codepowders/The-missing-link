@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ url('/') }}">
-                       {{ config('app.name', 'Korrewegwijk') }} 
+                       {{ config('app.name', 'Korrewegwijk') }}
                     </a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
