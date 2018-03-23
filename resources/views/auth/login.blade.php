@@ -1,22 +1,22 @@
+
 @extends('layouts.app')
 
 @section('content')
+
+
+
+
+<link rel="stylesheet" href="css/login.css">
+
 <style>
-.h2 {
-     display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
+
 </style>
 <div class="container">
     <div class="row">
+      <div class="test"> <div class="background"></div></div>  
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-            <br /><br /><div class="h2">Login schermpje</div><br />
+            <br /><br /><div class="h2">Login scherm</div><br />
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -77,4 +77,9 @@
         </div>
     </div>
 </div>
+
+
+
 @endsection
+</div>
+</body>

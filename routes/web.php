@@ -19,6 +19,10 @@ Route::get('/contact.blade.php', function () {
     return view('contact');
 });
 
+Route::get('/welcome.blade.php', function () {
+    return view('welcome');
+});
+
 Route::get('/doctors.blade.php', function () {
     return view('doctors');
 });
