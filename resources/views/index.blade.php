@@ -39,8 +39,10 @@
                 <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Maak hier een afspraak</a></p>
               <p class="mb-0">
                 <a href="login.blade.php" class="cta-btn">Login</a></p>
-              <p class="mb-0">
+                <p class="mb-0">
                 <a href="register.blade.php" class="cta-btn">Registreer</a></p>
+                <p class="mb-0">
+                <a href="posts/index.blade.php" class="cta-btn">Blog</a></p>
             </div>
 
           </div>

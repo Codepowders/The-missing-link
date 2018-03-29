@@ -18,6 +18,7 @@ class User extends \TCG\Voyager\Models\User
         'name', 'email', 'password',
     ];
 
+
     /**
      * The attributes that should be hidden for arrays.
      *
@@ -26,4 +27,8 @@ class User extends \TCG\Voyager\Models\User
     protected $hidden = [
         'password', 'remember_token',
     ];
+    
+    public function posts(){
+        return $this->hasMany('App\Post');
+    }
 }
