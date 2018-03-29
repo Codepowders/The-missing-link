@@ -4,14 +4,22 @@
 @section('content')
 
 
+
+
+
 <link rel="stylesheet" href="css/login.css">
+
+
+
+
+
 
 <style>
 
 </style>
 <div class="container">
     <div class="row">
-      <div class="test"> <div class="background"></div></div>  
+      <div class="test"> <div class="background"></div></div>
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
             <br /><br /><div class="h2">Login scherm</div><br />
@@ -37,7 +45,7 @@
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
 
-                            <div class="col-md-6">
+                          name  <div class="col-md-6">
                                 <input id="password" type="password" class="form-control" name="password" required>
 
                                 @if ($errors->has('password'))
