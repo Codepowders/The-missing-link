@@ -21,8 +21,8 @@ class AddCredentialsToUsers extends Migration
             $table->string('zipcode')->nullable();
             $table->string('place')->nullable();
             $table->integer('telephone')->nullable();
-            $table->enum('level', ['0', '1', '2', '3', '4'])->nullable();	
-            $table->boolean('enabled')->nullable();	
+            $table->enum('level', ['0', '1', '2', '3', '4'])->nullable();
+            $table->boolean('enabled')->nullable();
         });
     }
 
@@ -41,8 +41,8 @@ class AddCredentialsToUsers extends Migration
             $table->dropColumn('zipcode');
             $table->dropColumn('place');
             $table->dropColumn('telephone');
-            $table->dropColumn('level');	
-            $table->dropColumn('enabled');	
+            $table->dropColumn('level');
+            $table->dropColumn('enabled');
         });
     }
 }

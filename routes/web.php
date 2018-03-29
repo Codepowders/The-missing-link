@@ -52,6 +52,10 @@ Route::get('register.blade.php', function () {
     return view('auth.register');
 });
 
+Route::get('register2.blade.php', function () {
+    return view('auth.register2');
+});
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
