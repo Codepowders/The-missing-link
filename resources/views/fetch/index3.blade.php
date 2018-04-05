@@ -5,6 +5,7 @@
   <div class="forename">
 {{ $user->forename }}
 </div>
+{{ $user->klusjes }}
 
   <div class="name">
 {{ $user->name }}

@@ -1,39 +1,51 @@
 body {
-  background-color: red;
+  background-color: blue;
 }
 
 
 
 .platform
 {
-    background-color: blue;
-    height: 50px;
-    width: 1000px;
-    
+
+
+  box-sizing: border-box;
+  background-color: green;
+  width: 75vw;
 
 
 }
 
 .forename {
-
+  margin-left: 5vw;
+display: inline-block;
+width: 10vw;
+background-color: red;
+margin: 0.5vw;
 
 
 }
 
 .name {
-margin-left: 10vw;
-
-
+margin-left: 5vw;
+display: inline-block;
+width: 10vw;
+background-color: green;
 
 }
 
 .zipcode {
-margin-left: 20vw;
-
+margin-left: 5vw;
+display: inline-block;
+width: 10vw;
+background-color: green;
 }
 
 .streetnumber {
-margin-left: 30vw;
+margin-left: 5vw;
+display: inline-block;
+width: 10vw;
+background-color: green;
+
 
 
 }
