@@ -11,6 +11,11 @@
 |
 */
 
+
+
+Route::get('/fetch', 'FetchController@index');
+
+
 Route::get('/', function () {
     return view('index'); // welcome moet naar login=senioren. //index=deelnememers
 });

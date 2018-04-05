@@ -3,10 +3,6 @@
 
 @section('content')
 
-
-
-
-
 <link rel="stylesheet" href="css/login.css">
 
 
@@ -22,6 +18,9 @@
       <div class="test"> <div class="background"></div></div>
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
+
+
+
             <br /><br /><div class="h2">Login scherm</div><br />
 
                 <div class="panel-body">

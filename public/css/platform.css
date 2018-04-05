@@ -1,0 +1,39 @@
+body {
+  background-color: red;
+}
+
+
+
+.platform
+{
+    background-color: blue;
+    height: 50px;
+    width: 1000px;
+    
+
+
+}
+
+.forename {
+
+
+
+}
+
+.name {
+margin-left: 10vw;
+
+
+
+}
+
+.zipcode {
+margin-left: 20vw;
+
+}
+
+.streetnumber {
+margin-left: 30vw;
+
+
+}
