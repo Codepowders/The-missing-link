@@ -105,18 +105,7 @@
 
 
                         <h3>Step 2 :</h3>
-                        <div class="form-w3step1">
-                          <div class="form-group{{ $errors->has('street') ? ' has-error' : '' }}">
-                              <div class="col-md-6">
-                                  <input id="street" type="text" class="form-control" placeholder="Straat" name="street" value="{{ old('street') }}" required autofocus>
-
-                                    @if ($errors->has('street'))
-                                        <span class="help-block">
-                                              <strong>{{ $errors->first('street') }}</strong>
-                                            </span>
-                                        @endif
-                                    </div>
-                                </div>
+                    
 
 
                                 <div class="form-group{{ $errors->has('streetnumber') ? ' has-error' : '' }}">
@@ -131,6 +120,23 @@
                                           </div>
                                       </div>
 
+
+                                      <div class="form-group{{ $errors->has('street') ? ' has-error' : '' }}">
+                                          <div class="col-md-6">
+                                              <input id="street" type="text" class="form-control" placeholder="straat" name="street" value="{{ old('street') }}" autofocus>
+
+                                                @if ($errors->has('street'))
+                                                    <span class="help-block">
+                                                          <strong>{{ $errors->first('street') }}</strong>
+                                                        </span>
+                                                    @endif
+                                                </div>
+                                            </div>
+
+
+
+
+
                                       <div class="form-group{{ $errors->has('zipcode') ? ' has-error' : '' }}">
                                           <div class="col-md-6">
                                               <input id="zipcode" type="text" class="form-control" placeholder="postcode" name="zipcode" value="{{ old('zipcode') }}" autofocus>
@@ -142,6 +148,8 @@
                                                     @endif
                                                 </div>
                                             </div>
+
+
 
 
 

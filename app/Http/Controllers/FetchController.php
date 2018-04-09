@@ -10,7 +10,7 @@ class FetchController extends Controller
     //
     public function index() {
       // $users = User::whereNotNull('zipcode')->get();
-      $user = User::select("forename", "name", "streetnumber", "zipcode", "boodschappen")->where('boodschappen', 1)->get();
+      $user = User::select("forename", "name", "streetnumber", "street", "zipcode", "boodschappen")->where('boodschappen', 1)->get();
       $data = [
         'user' => $user
       ];
