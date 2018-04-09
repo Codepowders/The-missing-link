@@ -15,7 +15,7 @@ class User extends \TCG\Voyager\Models\User
      * @var array
      */
     protected $fillable = [
-        'name', 'forename', 'lastname', 'email', 'password', 'street', 'streetnumber', 'zipcode', 'place', 'telephone',
+        'name', 'forename', 'email', 'password', 'street', 'streetnumber', 'zipcode', 'klusjes', 'boodschappen', 'gezelschap', 'zorg',
     ];
 
 
@@ -27,7 +27,7 @@ class User extends \TCG\Voyager\Models\User
     protected $hidden = [
         'password', 'remember_token', 'enabled',
     ];
-    
+
     public function posts(){
         return $this->hasMany('App\Post2');
     }

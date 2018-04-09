@@ -105,18 +105,7 @@
 
 
                         <h3>Step 2 :</h3>
-                        <div class="form-w3step1">
-                          <div class="form-group{{ $errors->has('street') ? ' has-error' : '' }}">
-                              <div class="col-md-6">
-                                  <input id="street" type="text" class="form-control" placeholder="Straat" name="street" value="{{ old('street') }}" required autofocus>
-
-                                    @if ($errors->has('street'))
-                                        <span class="help-block">
-                                              <strong>{{ $errors->first('street') }}</strong>
-                                            </span>
-                                        @endif
-                                    </div>
-                                </div>
+                    
 
 
                                 <div class="form-group{{ $errors->has('streetnumber') ? ' has-error' : '' }}">
@@ -131,9 +120,26 @@
                                           </div>
                                       </div>
 
+
+                                      <div class="form-group{{ $errors->has('street') ? ' has-error' : '' }}">
+                                          <div class="col-md-6">
+                                              <input id="street" type="text" class="form-control" placeholder="straat" name="street" value="{{ old('street') }}" autofocus>
+
+                                                @if ($errors->has('street'))
+                                                    <span class="help-block">
+                                                          <strong>{{ $errors->first('street') }}</strong>
+                                                        </span>
+                                                    @endif
+                                                </div>
+                                            </div>
+
+
+
+
+
                                       <div class="form-group{{ $errors->has('zipcode') ? ' has-error' : '' }}">
                                           <div class="col-md-6">
-                                              <input id="zipcode" type="text" class="form-control" placeholder="postcode" name="zipcode" value="{{ old('zipcode') }}" required autofocus>
+                                              <input id="zipcode" type="text" class="form-control" placeholder="postcode" name="zipcode" value="{{ old('zipcode') }}" autofocus>
 
                                                 @if ($errors->has('zipcode'))
                                                     <span class="help-block">
@@ -146,9 +152,31 @@
 
 
 
+
+
+
+
+                                      <div class="form-group{{ $errors->has('zipcode') ? ' has-error' : '' }}">
+                                          <div class="col-md-6">
+                                            <input id="boodschappen" type="checkbox" class="form-control"  name="boodschappen" value="{{ old('boodschappen') }}" autofocus>
+                                            <input id="klusjes" type="checkbox" class="form-control"  name="klusjes" value="{{ old('klusjes') }}" autofocus>
+                                            <input id="zorg" type="checkbox" class="form-control"  name="zorg" value="{{ old('zorg') }}" autofocus>
+                                            <input id="gezelschap" type="checkbox" class="form-control"  name="gezelschap" value="{{ old('gezelschap') }}" autofocus>
+
+                                                      @if ($errors->has('zipcode'))
+                                                          <span class="help-block">
+                                                                <strong>{{ $errors->first('zipcode') }}</strong>
+                                                              </span>
+                                                          @endif
+                                                      </div>
+                                                  </div>
+
+
+
+
                         </div>
 
-      
+
 
                         <div class="agileits-row2 w3ls-formrow2">
                           <input type="checkbox" id="brand2" value="">
