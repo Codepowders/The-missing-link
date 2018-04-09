@@ -1,0 +1,16 @@
+ index.                      <!-- @if(count($categories2) > 0)
+                           <select name="cats" multiple>
+                           @foreach($categories2 as $category)
+                             <option>{{ $category->name }}</option>
+                            @endforeach
+                           </select>
+                         @endif -->
+
+
+ edit.       <div class="form-group">
+            <select name="cats" multiple>
+                @foreach($categories2 as $category)
+                    <option>{{ $category->name }}</option>
+                @endforeach
+            </select>
+        </div>

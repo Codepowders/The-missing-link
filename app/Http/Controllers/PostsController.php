@@ -35,11 +35,13 @@ class PostsController extends Controller
         //$posts = Post::orderBy('title','desc')->take(1)->get();
         //$posts = Post::orderBy('title','desc')->get();
 
-        /*$records = DB::table('posts')->leftjoin('reactions', 'posts.id', '=', 'reactions.blogs_id')
-        ->select('posts.*', 'reactions.title', 'reactions.text', 'reactions.created_at')
-        ->orderBy('posts.created_at', 'desc')->get();
+        /*$records = DB::table('posts2')->leftjoin('reactions', 'posts2.id', '=', 'reactions.blogs_id')
+        //->join("users", 'users.id', '=', 'posts2.user_id')
+        ->select('posts2.*', 'reactions.title', 'reactions.text', 'reactions.created_at', 'users.name')
+        ->orderBy('posts2.created_at', 'desc')->get();
         dd($records);*/
-        
+        //$getBlogCategories = DB::query("SELECT c.name FROM `categories` c, `blogs_categories` bc WHERE bc.blogs_id = %i AND bc.category_id = c.id", $id);
+
         /*$posts = DB::table('posts')->get();
         $categories = DB::table('categories')->get();
         foreach($categories as $category) {
@@ -47,7 +49,7 @@ class PostsController extends Controller
         }*/
 
         $posts = Post2::orderBy('created_at','desc')->paginate(10);
-        return view('posts2.index')->with('posts', $posts);
+        return view('posts2.index')->with('posts2', $posts);
     }
 
     /**
@@ -58,7 +60,7 @@ class PostsController extends Controller
     public function create()
     {
         $categories = DB::table('categories')->get();
-        return view('posts2.create', compact('categories'));
+        return view('posts2.create', compact('categories2'));
         // return $categories; gives a json string!
     }
 
@@ -132,7 +134,7 @@ class PostsController extends Controller
      */
     public function show($id)
     {
-        $post = Post::find($id);
+        $post = Post2::find($id);
         return view('posts2.show')->with('post', $post);
     }
 
@@ -144,7 +146,7 @@ class PostsController extends Controller
      */
     public function edit($id)
     {
-        $post = Post::find($id);
+        $post = Post2::find($id);
 
         // Check for correct user
         if(auth()->user()->id !==$post->user_id){
@@ -203,7 +205,7 @@ class PostsController extends Controller
      */
     public function destroy($id)
     {
-        $post = Post::find($id);
+        $post = Post2::find($id);
 
         // Check for correct user
         if(auth()->user()->id !==$post->user_id){

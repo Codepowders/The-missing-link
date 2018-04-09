@@ -20,13 +20,6 @@
             {{Form::textarea('text', '', ['id' => 'article-ckeditor', 'class' => 'form-control', 'placeholder' => 'Subbody Text'])}}
         </div>
         <div class="form-group">
-            <select name="cats" multiple>
-                @foreach($categories as $category)
-                    <option>{{ $category->name }}</option>
-                @endforeach
-            </select>
-        </div>
-        <div class="form-group">
             {{Form::file('cover_image')}}
         </div>
         {{Form::hidden('_method','PUT')}}

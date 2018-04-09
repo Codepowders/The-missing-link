@@ -21,7 +21,7 @@ class Post2 extends Model
         return $this->belongsToMany('App\Category')->using('App\PostCategory');
     }
 
-    public function comments(){
-        return $this->hasMany('App\Comment');
+    public function reaction(){
+        return $this->hasMany('App\Reaction');
     }
 }
