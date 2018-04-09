@@ -2,6 +2,7 @@
 
 
 <body>
+  <h1>Boodschappen</h1>
 @foreach($user as $user)
 <div class="platform">
 
