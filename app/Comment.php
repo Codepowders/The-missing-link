@@ -17,6 +17,6 @@ class Comment extends Model
      * Get the post that the comment belongs to.
      */
      public function post(){
-        return $this->belongsTo('App\Post');
+        return $this->belongsTo('App\Post2');
     }
 }

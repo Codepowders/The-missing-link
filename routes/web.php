@@ -69,7 +69,7 @@ Route::get('senior.blade.php', function () {
     return view('seniors.senior');
 });
 
-Route::resource('posts', 'PostsController');
+Route::resource('posts2', 'PostsController');
 
 /*Route::get('blog.blade.php', function () {
     return view('posts.index');

@@ -1,9 +1,0 @@
-Test-driven developement
-
-eerst testen
-dan coderen 
-en verbeteren
-het geheel itereren
-
-(phpunit)
-

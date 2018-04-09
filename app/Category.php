@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Category extends Model
 {
     // Table Name
-    protected $table = 'categories';
+    protected $table = 'category';
 
     /**
      * Indicates if the model should be timestamped.
@@ -21,6 +21,6 @@ class Category extends Model
      */
     public function posts()
     {
-        return $this->belongsToMany('App\Post')->using('App\PostCategory');
+        return $this->belongsToMany('App\Post2')->using('App\PostCategory');
     }
 }

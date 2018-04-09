@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 class Reaction extends Model
 {
     // Table Name
-    protected $table = 'reactions';
+    protected $table = 'reaction';
 
     /**
      * Get the post that owns te reaction.
      */
     public function post()
     {
-        return $this->belongsTo('App\Post');
+        return $this->belongsTo('App\Post2');
     }
 }

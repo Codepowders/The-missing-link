@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use App\Post;
+use App\Post2;
 use App\Category;
 use App\PostCategory;
 use App\Reaction;
@@ -46,8 +46,8 @@ class PostsController extends Controller
 
         }*/
 
-        $posts = Post::orderBy('created_at','desc')->paginate(10);
-        return view('posts.index')->with('posts', $posts);
+        $posts = Post2::orderBy('created_at','desc')->paginate(10);
+        return view('posts2.index')->with('posts', $posts);
     }
 
     /**
@@ -58,7 +58,7 @@ class PostsController extends Controller
     public function create()
     {
         $categories = DB::table('categories')->get();
-        return view('posts.create', compact('categories'));
+        return view('posts2.create', compact('categories'));
         // return $categories; gives a json string!
     }
 
@@ -97,7 +97,7 @@ class PostsController extends Controller
         }
 
         // Create Post
-        $post = new Post;
+        $post = new Post2;
         $post->title = $request->input('title');
         $post->body = $request->input('body');
         $post->subtitle = $request->input('subtitle');
@@ -121,7 +121,7 @@ class PostsController extends Controller
             $postcategory->category_id = $cat;
             $postcategory->save();
         }
-        return redirect('/posts')->with('success', 'Post Created');
+        return redirect('/posts2')->with('success', 'Post Created');
     }
 
     /**
@@ -133,7 +133,7 @@ class PostsController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
-        return view('posts.show')->with('post', $post);
+        return view('posts2.show')->with('post', $post);
     }
 
     /**
@@ -148,10 +148,10 @@ class PostsController extends Controller
 
         // Check for correct user
         if(auth()->user()->id !==$post->user_id){
-            return redirect('/posts')->with('error', 'Unauthorized Page');
+            return redirect('/posts2')->with('error', 'Unauthorized Page');
         }
 
-        return view('posts.edit')->with('post', $post);
+        return view('posts2.edit')->with('post', $post);
     }
 
     /**
@@ -182,8 +182,8 @@ class PostsController extends Controller
             $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
         }
 
-        // Create Post
-        $post = Post::find($id);
+        // Create Post2
+        $post = Post2::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');
         if($request->hasFile('cover_image')){
@@ -192,7 +192,7 @@ class PostsController extends Controller
         }
         $post->save();
 
-        return redirect('/posts')->with('success', 'Post Updated');
+        return redirect('/posts2')->with('success', 'Post Updated');
     }
 
     /**
@@ -207,7 +207,7 @@ class PostsController extends Controller
 
         // Check for correct user
         if(auth()->user()->id !==$post->user_id){
-            return redirect('/posts')->with('error', 'Unauthorized Page');
+            return redirect('/posts2')->with('error', 'Unauthorized Page');
         }
 
         if($post->cover_image != 'noimage.jpg'){
@@ -216,6 +216,6 @@ class PostsController extends Controller
         }
         
         $post->delete();
-        return redirect('/posts')->with('success', 'Post Removed');
+        return redirect('/posts2')->with('success', 'Post Removed');
     }
 }
