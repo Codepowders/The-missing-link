@@ -39,7 +39,7 @@ class PostsController extends Controller
         ->select('posts.*', 'reactions.title', 'reactions.text', 'reactions.created_at')
         ->orderBy('posts.created_at', 'desc')->get();
         dd($records);*/
-        
+
         /*$posts = DB::table('posts')->get();
         $categories = DB::table('categories')->get();
         foreach($categories as $category) {
@@ -112,8 +112,8 @@ class PostsController extends Controller
             $category = new Category;
             $category->name = $request->input('text1');
             $category->save();
-        } 
-        
+        }
+
         // Add Categories
         foreach($request->input('cats.*') as $cat) {
             $postcategory = new PostCategory();
@@ -214,7 +214,7 @@ class PostsController extends Controller
             // Delete Image
             Storage::delete('public/cover_images/'.$post->cover_image);
         }
-        
+
         $post->delete();
         return redirect('/posts')->with('success', 'Post Removed');
     }

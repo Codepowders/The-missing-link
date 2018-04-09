@@ -79,6 +79,26 @@
                             </div>
                         </div>
 
+
+                                                <div class="form-group{{ $errors->has('telephone') ? ' has-error' : '' }}">
+
+                                                    <div class="col-md-6">
+                                                        <input id="telephone" type="text" class="form-control" name="telephone" placeholder="Telefoon" value="{{ old('telephone') }}" required>
+
+                                                        @if ($errors->has('telephone'))
+                                                            <span class="help-block">
+                                                                <strong>{{ $errors->first('telephone') }}</strong>
+                                                            </span>
+                                                        @endif
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
 
                           <div class="col-md-6">

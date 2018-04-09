@@ -8,7 +8,6 @@ body {
 }
 
 
-
 p {
   text-decoration: underline;
   color:white;
@@ -27,14 +26,10 @@ background-image: url("../img/lovehelping2.JPG");
 background-size: contain;
 border: 3px solid blue;
 border-radius:5%;
-  width: 60vw;
+  width: 63vw;
   min-height: 7vw;
   padding-left: 2vw;
   margin-top: 0.5vw;
-
-
-
-
 
 
 }
@@ -98,5 +93,17 @@ padding: 0.5vw;
   padding: 0.5vw;
 
 
+
+}
+
+.telephone{
+
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
 
 }
