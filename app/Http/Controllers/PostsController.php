@@ -35,11 +35,11 @@ class PostsController extends Controller
         //$posts = Post::orderBy('title','desc')->take(1)->get();
         //$posts = Post::orderBy('title','desc')->get();
 
-        /*$records = DB::table('posts2')->leftjoin('reactions', 'posts2.id', '=', 'reactions.blogs_id')
-        //->join("users", 'users.id', '=', 'posts2.user_id')
+        $records = DB::table('posts2')->join('reactions', 'posts2.id', '=', 'reactions.blogs_id')
+        ->join("users", 'posts2.user_id', '=', 'users.id')
         ->select('posts2.*', 'reactions.title', 'reactions.text', 'reactions.created_at', 'users.name')
         ->orderBy('posts2.created_at', 'desc')->get();
-        dd($records);*/
+        //dd($records);
         //$getBlogCategories = DB::query("SELECT c.name FROM `categories` c, `blogs_categories` bc WHERE bc.blogs_id = %i AND bc.category_id = c.id", $id);
 
         /*$posts = DB::table('posts')->get();
@@ -47,7 +47,7 @@ class PostsController extends Controller
         foreach($categories as $category) {
 
         }*/
-
+        //$cat = DB::table('post_category')->where('')
         $posts = Post2::orderBy('created_at','desc')->paginate(10);
         return view('posts2.index')->with('posts2', $posts);
     }
