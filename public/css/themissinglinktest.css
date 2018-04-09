@@ -2,20 +2,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #708090;
-
-
 }
-
 
 .container {
   width: 90%;
   height: 80vh;
   margin-top: 7%;
   margin-left: 8%;
-
 }
-
-
 
 .myButton {
 	-moz-border-radius:25% 25% 25% 0%;
@@ -30,25 +24,17 @@ body {
   width: 22%;
   height: 33%;
   -webkit-box-shadow: 22px 17px 16px 5px rgba(0,0,0,0.6);
--moz-box-shadow: 22px 17px 16px 5px rgba(0,0,0,0.6);
-box-shadow: 22px 17px 16px 5px rgba(0,0,0,0.6);
-
-
-
-
+  -moz-box-shadow: 22px 17px 16px 5px rgba(0,0,0,0.6);
+  box-shadow: 22px 17px 16px 5px rgba(0,0,0,0.6);
   transition: all ease 0.3s;
 }
-
-
 
 .myButton:active {
   -webkit-box-shadow: 0px 0px 0px  rgba(242,215,242,1);
 -moz-box-shadow: 0px 0px 0px  rgba(242,215,242,1);
 box-shadow: 0px 0px 0px  rgba(242,215,242,1);
     bottom:-4px;
-
 }
-
 
 .myButton.button1 {
   background: linear-gradient(135deg, rgba(255,142,122,1) 21%, rgba(254,99,78,1) 24%,
@@ -56,23 +42,18 @@ box-shadow: 0px 0px 0px  rgba(242,215,242,1);
   rgba(255,70,46,1) 74%, rgba(255,70,46,1) 94%);
   border: 20px double white;
   padding: 5px;
-  background-clip: padding-box; /* support: IE9+ */
-
-
-
+  background-clip: padding-box;
 }
 
-
 .myButton.button2 {
-background: linear-gradient(135deg, rgba(255,215,122,1) 21%, rgba(254,196,78,1) 24%,
-rgba(253,176,33,1) 27%, rgba(255,195,92,1) 35%, rgba(246,216,146,1) 48%, rgba(255,228,168,1) 50%,
-rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);background: linear-gradient(135deg, rgba(255,215,122,1) 21%,
-rgba(254,196,78,1) 24%, rgba(253,176,33,1) 27%, rgba(255,195,92,1) 35%, rgba(246,216,146,1) 48%, rgba(255,228,168,1) 50%,
-rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);
+  background: linear-gradient(135deg, rgba(255,215,122,1) 21%, rgba(254,196,78,1) 24%,
+  rgba(253,176,33,1) 27%, rgba(255,195,92,1) 35%, rgba(246,216,146,1) 48%, rgba(255,228,168,1) 50%,
+  rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);background: linear-gradient(135deg, rgba(255,215,122,1) 21%,
+  rgba(254,196,78,1) 24%, rgba(253,176,33,1) 27%, rgba(255,195,92,1) 35%, rgba(246,216,146,1) 48%, rgba(255,228,168,1) 50%,
+  rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);
   border: 20px double white;
   padding: 5px;
-  background-clip: padding-box; /* support: IE9+ */
-
+  background-clip: padding-box;
 }
 
 .myButton.button3 {
@@ -83,9 +64,7 @@ rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);
   rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);
   border: 20px double white;
   padding: 5px;
-background-clip: padding-box; /* support: IE9+ */
-
-
+  background-clip: padding-box;
 }
 
 .myButton.button4 {
@@ -94,7 +73,7 @@ background-clip: padding-box; /* support: IE9+ */
   rgba(0,106,255,1) 78%, rgba(0,106,255,1) 80%, rgba(17,102,212,1) 90%);
   border: 20px double white;
   padding: 5px;
-  background-clip: padding-box; /* support: IE9+ */
+  background-clip: padding-box;
 
 }
 
@@ -106,9 +85,7 @@ background-clip: padding-box; /* support: IE9+ */
   rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);
   border: 20px double white;
   padding: 5px;
-  background-clip: padding-box; /* support: IE9+ */
-
-
+  background-clip: padding-box;
 }
 
 .myButton.button6 {
@@ -119,16 +96,10 @@ background-clip: padding-box; /* support: IE9+ */
   rgba(255,185,46,1) 74%, rgba(255,185,46,1) 94%);
   border: 20px double white;
   padding: 5px;
-  background-clip: padding-box; /* support: IE9+ */
-
+  background-clip: padding-box;
 }
 
-
-
-
-/* Button image properties */
-
-.btnimage.nood{
+.btnimage.nood {
   margin-top: 10%;
   width: 60%;
   height: 60%;
@@ -138,7 +109,7 @@ background-clip: padding-box; /* support: IE9+ */
   filter: drop-shadow(10px 10px 10px #222);
 }
 
-.btnimage.boodschappen{
+.btnimage.boodschappen {
   margin-top: 10%;
   width: 60%;
   height: 60%;
@@ -148,7 +119,7 @@ background-clip: padding-box; /* support: IE9+ */
   filter: drop-shadow(10px 10px 10px #222);
 }
 
-.btnimage.klusjes{
+.btnimage.klusjes {
   margin-top: 10%;
   width: 60%;
   height: 60%;
@@ -158,7 +129,7 @@ background-clip: padding-box; /* support: IE9+ */
   filter: drop-shadow(10px 10px 10px #222);
 }
 
-.btnimage.hulp{
+.btnimage.hulp {
   margin-top: 10%;
   width: 60%;
   height: 60%;
@@ -168,7 +139,7 @@ background-clip: padding-box; /* support: IE9+ */
   filter: drop-shadow(10px 10px 10px #222);
 }
 
-.btnimage.zorg{
+.btnimage.zorg {
   margin-top: 10%;
   width: 60%;
   height: 60%;
@@ -178,7 +149,7 @@ background-clip: padding-box; /* support: IE9+ */
   filter: drop-shadow(10px 10px 10px #222);
 }
 
-.btnimage.gezelschap{
+.btnimage.gezelschap {
   margin-top: 10%;
   width: 60%;
   height: 60%;
@@ -186,7 +157,6 @@ background-clip: padding-box; /* support: IE9+ */
   opacity: 0.8;
   --webkit-filter: drop-shadow(10px 10px 10px #222);
   filter: drop-shadow(10px 10px 10px #222);
-
 }
 
 
