@@ -114,8 +114,8 @@ class PostsController extends Controller
             $category = new Category;
             $category->name = $request->input('text1');
             $category->save();
-        } 
-        
+        }
+
         // Add Categories
         foreach($request->input('cats.*') as $cat) {
             $postcategory = new PostCategory();
@@ -216,7 +216,7 @@ class PostsController extends Controller
             // Delete Image
             Storage::delete('public/cover_images/'.$post->cover_image);
         }
-        
+
         $post->delete();
         return redirect('/posts2')->with('success', 'Post Removed');
     }

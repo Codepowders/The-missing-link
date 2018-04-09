@@ -3,91 +3,87 @@ body {
   background-image: url("../img/lovehelping.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 5vw;
-  margin-left: 30vw;
+  margin-top: 2.5vw;
+  margin-left: 2.5vw;
 }
 
+p {
+  text-decoration: underline;
+  color:white;
+}
 
+h1 {
+  color: white;
+  text-decoration: underline;
+}
 
-.platform
-{
-
-background-color: grey;
-border: 5px solid black;
-border-radius: 20%;
-  width: 60vw;
+.platform {
+  background-image: url("../img/lovehelping2.JPG");
+  background-size: contain;
+  border: 3px solid blue;
+  border-radius:5%;
+  width: 63vw;
   min-height: 7vw;
-  padding-left: 5vw;
-  margin-top: 1vw;
-
-
-
-
+  padding-left: 2vw;
+  margin-top: 0.5vw;
 }
 
 .forename {
-
-display: inline-block;
-margin-top: 0.7vw;
-margin-left: 1vw;
-background-color: white;
-border: 2px solid red;
-border-radius: 5%;
-padding: 0.5vw;
-
-
-
-
-
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
 }
 
 .name {
-
-display: inline-block;
-margin-top: 0.7vw;
-margin-left: 1vw;
-background-color: white;
-border: 2px solid red;
-border-radius: 5%;
-padding: 0.5vw;
-
-
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
 }
 
 .zipcode {
-
-display: inline-block;
-margin-top: 0.7vw;
-margin-left: 1vw;
-background-color: white;
-border: 2px solid red;
-border-radius: 5%;
-padding: 0.5vw;
-
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
 }
 
 .streetnumber {
-
-display: inline-block;
-margin-top: 0.7vw;
-margin-left: 1vw;
-background-color: white;
-border: 2px solid red;
-border-radius: 5%;
-padding: 0.5vw;
-
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
 }
 
 .street {
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
+}
 
-display: inline-block;
-margin-top: 0.7vw;
-margin-left: 1vw;
-background-color: white;
-border: 2px solid red;
-border-radius: 5%;
-padding: 0.5vw;
-
-
-
+.telephone {
+  display: inline-block;
+  margin-top: 0.7vw;
+  margin-left: 1vw;
+  background-color: #2adcf5;
+  border: 4px double #4ab41b;
+  border-radius: 20%;
+  padding: 0.5vw;
 }

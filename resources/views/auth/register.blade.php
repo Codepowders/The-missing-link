@@ -16,11 +16,11 @@
 
 
 <div class="main main-agileits">
-  <h1>Client Signup Form</h1>
+  <h1>The newlink</h1>
   <div class="main-agilerow">
     <div class="signup-wthreetop">
-      <h2>Welcome to Registration</h2>
-      <p>Lorem ipsum dolor sit amet </p>
+      <h2>Hier kunt u registeren.</h2>
+      <p>Help uw naasten!</p>
     </div>
 
 <div class="container">
@@ -34,7 +34,7 @@
                     <form class="form-horizontal" method="POST" action="{{ route('register') }}">
                         {{ csrf_field() }}
 
-                        <h3>Step 1 :</h3>
+                        <h3>Stap 1: Persoonlijke gegevens.</h3>
                         <div class="form-w3step1">
                       <div class="form-group{{ $errors->has('forename') ? ' has-error' : '' }}">
                           <div class="col-md-6">
@@ -56,7 +56,7 @@
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control" placeholder="name" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="name" type="text" class="form-control" placeholder="achternaam" name="name" value="{{ old('name') }}" required autofocus>
 
                                 @if ($errors->has('name'))
                                     <span class="help-block">
@@ -78,6 +78,26 @@
                                 @endif
                             </div>
                         </div>
+
+
+                                                <div class="form-group{{ $errors->has('telephone') ? ' has-error' : '' }}">
+
+                                                    <div class="col-md-6">
+                                                        <input id="telephone" type="text" class="form-control" name="telephone" placeholder="Telefoon" value="{{ old('telephone') }}" required>
+
+                                                        @if ($errors->has('telephone'))
+                                                            <span class="help-block">
+                                                                <strong>{{ $errors->first('telephone') }}</strong>
+                                                            </span>
+                                                        @endif
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
 
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
 
@@ -104,10 +124,8 @@
 
 
 
-                        <h3>Step 2 :</h3>
-                    
-
-
+                        <h3>Stap 2: adres gegevens.</h3>
+<div class="form-w3step1">
                                 <div class="form-group{{ $errors->has('streetnumber') ? ' has-error' : '' }}">
                                     <div class="col-md-6">
                                         <input id="streetnumber" type="text" class="form-control" placeholder="Straatnummer" name="streetnumber" value="{{ old('streetnumber') }}" required autofocus>
@@ -148,20 +166,22 @@
                                                     @endif
                                                 </div>
                                             </div>
+                                          </div>
 
 
 
 
 
 
-
+                                            <h3>Stap 3: Kies waar u mee wilt helpen.  </h3>
+                                            <div class="form-w3step1">
 
                                       <div class="form-group{{ $errors->has('zipcode') ? ' has-error' : '' }}">
                                           <div class="col-md-6">
-                                            <input id="boodschappen" type="checkbox" class="form-control"  name="boodschappen" value="{{ old('boodschappen') }}" autofocus>
-                                            <input id="klusjes" type="checkbox" class="form-control"  name="klusjes" value="{{ old('klusjes') }}" autofocus>
-                                            <input id="zorg" type="checkbox" class="form-control"  name="zorg" value="{{ old('zorg') }}" autofocus>
-                                            <input id="gezelschap" type="checkbox" class="form-control"  name="gezelschap" value="{{ old('gezelschap') }}" autofocus>
+                                          <input id="boodschappen" type="checkbox" class="form-control"  name="boodschappen" value="{{ old('boodschappen') }}" autofocus>
+                                            Boodschappen<hr><input id="klusjes" type="checkbox" class="form-control"  name="klusjes" value="{{ old('klusjes') }}" autofocus>
+                                          Klusjes<hr><input id="zorg" type="checkbox" class="form-control"  name="zorg" value="{{ old('zorg') }}" autofocus>
+                                          Zorg<hr><input id="gezelschap" type="checkbox" class="form-control"  name="gezelschap" value="{{ old('gezelschap') }}" autofocus> Gezelschap<hr>
 
                                                       @if ($errors->has('zipcode'))
                                                           <span class="help-block">
@@ -171,13 +191,8 @@
                                                       </div>
                                                   </div>
 
-
-
-
                         </div>
-
-
-
+</div>
                         <div class="agileits-row2 w3ls-formrow2">
                           <input type="checkbox" id="brand2" value="">
                           <label for="brand2"><span></span>I accept the terms of Use</label>

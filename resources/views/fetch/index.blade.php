@@ -2,6 +2,7 @@
 
 
 <body>
+  <h1>Boodschappen</h1>
 @foreach($user as $user)
 <div class="platform">
 
@@ -24,6 +25,12 @@
   <div class="zipcode"><p><b>postcode:</b></p>
 {{ $user->zipcode }}
 </div>
+
+
+<div class="telephone"><p><b>telefoon:</b></p>
+{{ $user->telephone }}
+</div>
+
 </div>
 @endforeach
 </body>
